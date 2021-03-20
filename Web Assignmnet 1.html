@@ -1,0 +1,359 @@
+<!-- 
+  Assignment Group Detail
+
+
+  Abdul Rahim  (FA18-BSE-066)
+  Abdul Rehman  (FA18-BSE-103)
+  Abdullah Riaz  (FA18-BSE-112)
+  Ammar Hassan Uppal  (FA18-BSE-113)
+  Usama bin Khurshid  (FA18-BSE-114)
+
+-->
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="shortcut icon" href="https://edhi.org/wp-content/uploads/2017/08/favicon.ico" />
+  <title>Educational Services &#8211; Edhi Welfare Organization</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+
+<style>
+  body {
+    font-family: Poppins;
+    background-color: #f1f1f1;
+  }
+
+  
+
+  .gallery {
+    width: 150px;
+    height: 150px;
+    display: inline;
+  }
+
+  .edhi_services {
+    font-size: 25px;
+    padding-left: 30px;
+  }
+
+  li {
+    list-style-type: none;
+    color: #d92319;
+    font-size: 16px;
+    padding-bottom: 7px;
+    padding-left: 30px;
+  }
+
+  .my_a {
+    text-decoration: none;
+    color: #d92319;
+  }
+
+  .my_a:hover {
+    text-decoration: none;
+    color: #009241;
+  }
+
+  .site-footer {
+    background-color: #26272b;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+  }
+
+  .site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5
+  }
+
+  .site-footer hr.small {
+    margin: 20px 0
+  }
+
+  .site-footer h6 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px
+  }
+
+  .site-footer a {
+    color: #737373;
+  }
+
+  .site-footer a:hover {
+    color: #3366cc;
+    text-decoration: none;
+  }
+
+  .footer-links {
+    list-style: none
+  }
+
+  .footer-links li {
+    display: block
+  }
+
+  .footer-links a {
+    color: #737373
+  }
+
+  .footer-links a:active,
+  .footer-links a:focus,
+  .footer-links a:hover {
+    color: #3366cc;
+    text-decoration: none;
+  }
+
+  .footer-links.inline li {
+    display: inline-block
+  }
+
+  .site-footer .social-icons {
+    text-align: right
+  }
+
+  .site-footer .social-icons a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 6px;
+    margin-right: 0;
+    border-radius: 100%;
+    background-color: #33353d
+  }
+
+  .copyright-text {
+    margin: 0
+  }
+
+
+
+  .social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+  }
+
+  .social-icons li {
+    display: inline-block;
+    margin-bottom: 4px
+  }
+
+  .social-icons li.title {
+    margin-right: 15px;
+    text-transform: uppercase;
+    color: #96a2b2;
+    font-weight: 700;
+    font-size: 13px
+  }
+
+  .social-icons a {
+    background-color: #eceeef;
+    color: #818a91;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear
+  }
+
+  .social-icons a:active,
+  .social-icons a:focus,
+  .social-icons a:hover {
+    color: #fff;
+    background-color: #29aafe
+  }
+
+  .social-icons.size-sm a {
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+    font-size: 14px
+  }
+
+  .social-icons a.facebook:hover {
+    background-color: #3b5998
+  }
+
+  .social-icons a.twitter:hover {
+    background-color: #00aced
+  }
+
+  .social-icons a.linkedin:hover {
+    background-color: #007bb6
+  }
+
+  .social-icons a.dribbble:hover {
+    background-color: #ea4c89
+  }
+  .container{
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+</style>
+
+<body>
+  
+  <div class="container" style="background-color: white;">
+    <div class="row">
+      <div class="col-sm">
+        <div>
+          <h2> Educational Services</h2>
+          <p>Karachi Bilquis Edhi elementary and primary secondary schools are operating at Karachi, in the areas of,
+            Old Sabzi Mandi, Noor Shah Colony Mirphur Khaas and Masjid Road Nawabshah. In these remoter areas of Sindh,
+            the students studying at these Edhi homes are giving basic education.</p>
+          <p>The students studying at various schools in Sindh Province are listed as under:</p>
+          <h2>In Karachi</h2>
+          <p>The students currently studying at these centres are ___ in number, whereas classes are held from 1st to
+            Matric class. All our students score over 80 percent marks during the Matric board examinations.</p>
+          <h2>In Nawabshah</h2>
+          <p>Edhi elementary school was opened in 2002, has classes from Nursery to Class V, making the number of
+            students as_________, by providing the early education as well as assisting to acquire satisfactory results.
+          </p>
+          <h2>In Mirpur Khaas</h2>
+          <p>Bilquis Edhi Middle School is running in Mirpur Khaas, having over 511 students currently studying there.
+            The school caters the education from nursery to 8th class. This school is registered with Education &amp;
+            Literacy Department, Govt. of Sindh.</p>
+        </div>
+        <div>
+          <img class="gallery" src="https://edhi.org/wp-content/uploads/2017/08/08-3.jpg">
+          <img class="gallery" src="https://edhi.org/wp-content/uploads/2017/08/13-1.jpg">
+          <img class="gallery" src="https://edhi.org/wp-content/uploads/2017/08/1-5.jpg">
+          <img class="gallery" src="https://edhi.org/wp-content/uploads/2017/08/08-3.jpg">
+          <img class="gallery" src="https://edhi.org/wp-content/uploads/2017/08/13-1.jpg">
+          <img class="gallery" src="https://edhi.org/wp-content/uploads/2017/08/1-5.jpg">
+          <img class="gallery" src="https://edhi.org/wp-content/uploads/2017/08/08-3.jpg">
+          <img class="gallery" src="https://edhi.org/wp-content/uploads/2017/08/08-3.jpg">
+          <img class="gallery" src="https://edhi.org/wp-content/uploads/2017/08/08-3.jpg">
+          <img class="gallery" src="https://edhi.org/wp-content/uploads/2017/08/13-1.jpg">
+          <img class="gallery" src="https://edhi.org/wp-content/uploads/2017/08/08-3.jpg">
+          <img class="gallery" src="https://edhi.org/wp-content/uploads/2017/08/13-1.jpg">
+          <img class="gallery" src="https://edhi.org/wp-content/uploads/2017/08/1-5.jpg">
+          <img class="gallery" src="https://edhi.org/wp-content/uploads/2017/08/13-1.jpg">
+
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class=".myDiv">
+          <h2 class="edhi_services">EDHI SERVICES</h2>
+          <li><a class="my_a" href="https://www.google.com">Ambulance</a></li>
+          <li><a class="my_a" href="https://www.google.com">Hospital</a></li>
+          <li><a class="my_a" href="https://www.google.com">Children Services</a></li>
+          <li><a class="my_a" href="https://www.google.com">Edhi Homes & Orphanage Centres</a></li>
+          <li><a class="my_a" href="https://www.google.com">Helpline Service</a></li>
+          <li><a class="my_a" href="https://www.google.com">Educational Services</a></li>
+          <li><a class="my_a" href="https://www.google.com">Graveyard</a></li>
+          <li><a class="my_a" href="https://www.google.com">Missing Persons Service</a></li>
+          <li><a class="my_a" href="https://www.google.com">Refugees Assistance</a></li>
+          <li><a class="my_a" href="https://www.google.com">Marriage Bureau Service</a></li>
+          <li><a class="my_a" href="https://www.google.com">Langer Service (Free Kitchen)</a></li>
+          <li><a class="my_a" href="https://www.google.com">Charitable Shop</a></li>
+          <li><a class="my_a" href="https://www.google.com">Edhi Animal Hostel</a></li>
+          <li><a class="my_a" href="https://www.google.com">Edhi Rikshaw “Rozgar” Scheme</a></li>
+          <li><a class="my_a" href="https://www.google.com">Rehabilitation Center</a></li>
+          <li><a class="my_a" href="https://www.google.com">Welfare Centers</a></li>
+          <li><a class="my_a" href="https://www.google.com">In-House Bakery</a></li>
+          <li><a class="my_a" href="https://www.google.com">Kitchen</a></li>
+          <li><a class="my_a" href="https://www.google.com">Rooti Plant</a></li>
+          <li><a class="my_a" href="https://www.google.com">Workshop</a></li>
+          <li><a class="my_a" href="https://www.google.com">Edhi Mourge</a></li>
+          <li><a class="my_a" href="https://www.google.com">Online Qurbani Service</a></li>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Site footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-3">
+          <h6>Pakistan Edhi Centers</h6>
+          <ul class="footer-links">
+            <li><a href="https://www.google.com">Sind</a></li>
+            <li><a href="https://www.google.com">Punjab</a></li>
+            <li><a href="https://www.google.com">KPK</a></li>
+            <li><a href="https://www.google.com">Baluchistan</a></li>
+            <li><a href="https://www.google.com">Azad Jammu Kashmir</a></li>
+          </ul>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>International Offices</h6>
+          <ul class="footer-links">
+            <li><a href="https://www.google.com">USA Office</a></li>
+            <li><a href="https://www.google.com">Australia Office</a></li>
+            <li><a href="https://www.google.com">Networks</a></li>
+            <li><a href="https://www.google.com">North America</a></li>
+            <li><a href="https://www.google.com">United Kingdom</a></li>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Activities</h6>
+          <ul class="footer-links">
+            <li><a href="https://www.google.com">Destitute Homes</a></li>
+            <li><a href="https://www.google.com">High Ways Project</a></li>
+            <li><a href="https://www.google.com">International Community Centers</a></li>
+            <li><a href="https://www.google.com">Collaboration</a></li>
+            <li><a href="https://www.google.com">International Activities</a></li>
+          </ul>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Media</h6>
+          <ul class="footer-links">
+            <li><a href="https://www.google.com">Image Galleries</a></li>
+            <li><a href="https://www.google.com">Videos</a></li>
+            <li><a href="https://www.google.com">Downloads</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+       <a href="#">Scanfcode</a>.
+          </p>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+          </ul>
+        </div>
+      </div>
+    </div>
+</footer>
+</body>
+
+</html>
